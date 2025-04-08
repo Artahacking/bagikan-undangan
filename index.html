@@ -112,7 +112,7 @@ Yang berbahagia,
         function bagikanWA() {
             let namaTamu = document.getElementById("namaTamu").value;
             let teksPengantar = document.getElementById("teksPengantar").value;
-            let linkUndangan = "https://ngundu-mantu.vercel.app/?nama=" + encodeURIComponent(namaTamu);
+            let linkUndangan = "https://ngundu-mantu-fikribila.vercel.app/?nama=" + encodeURIComponent(namaTamu);
             let pesan = teksPengantar.replace("[nama]", namaTamu).replace("[link-undangan]", linkUndangan);
             
             let waLink = "https://wa.me/?text=" + encodeURIComponent(pesan);
